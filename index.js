@@ -1,4 +1,4 @@
-// Lecture #1
+// ********************************************Lecture #1
 // 1st version of js was ECMAscript 1997
 // european computer manufacturing association:
 // now ECMAscript 5.1 is used:
@@ -8,7 +8,7 @@
 // new advance events and web APIs
 // DOM new methods and properties:
 
-// Lecture #2
+// ********************************************Lecture #2
 // Let and const variables:
 // Let and const were introduced in ES6 version while the var was the old one:
 // in case of var we can re declare it in the code:
@@ -19,7 +19,7 @@
 // let can be used in specific part and cannot be accessed outside then:-->  it is block scope:
 // const has the same condition we cannot access it outside the block of the code:
 
-// Lecture #3
+// ******************************************Lecture #3
 // template  strings or template literals:
 // they are introduced in ES6 version of js:
 // back tick ` is used and $ and {} are used for this method:
@@ -43,3 +43,21 @@
 // console.log(fullName(firstName, lastName));
 // OR
 // console.log(`hello ${fullName(firstName, lastName)}`);
+
+// ****************************************Lecture #4
+// Arrow functions:
+// simply we can write a code as:
+// let hello = function(){
+//     console.log("hello");
+// }
+// hello();
+// but in arrow function we can write this function as:
+// let hello = ()=> console.log("Hello");
+// hello();
+// another example:
+// let welcome = (name) => {return `Hello and welcome ${name}`;}
+
+// console.log(welcome("ahmed"));
+
+// let finish = (name) => { return `${name} has finished the class`};
+// console.log(finish("Awais"));
