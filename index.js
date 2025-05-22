@@ -18,3 +18,28 @@
 // var has a global scope we can access it anywhere in the code:
 // let can be used in specific part and cannot be accessed outside then:-->  it is block scope:
 // const has the same condition we cannot access it outside the block of the code:
+
+// Lecture #3
+// template  strings or template literals:
+// they are introduced in ES6 version of js:
+// back tick ` is used and $ and {} are used for this method:
+// example:
+// var a = "ali";
+// document.write(`Hello ${a}`);
+// console.log(`Hello ${a}`);
+// while writting it simply makes the code very complex and difficult to understand usin concatination
+// we can simply use the multiple strings in single line without concatination signs adn used ${} signs for the variables:
+// Example:
+// var a = "Students";
+// console.log(`Hello ${a} how was the class today?`)
+// we can use multiople variables as well in it:
+// we can use quotes inside it as well
+// we can use functions for it as well:
+// var firstName = "M.";
+// var lastName = "Umair";
+// function fullName(firstName, lastName){
+//     return `${firstName} ${lastName}`;
+// }
+// console.log(fullName(firstName, lastName));
+// OR
+// console.log(`hello ${fullName(firstName, lastName)}`);
