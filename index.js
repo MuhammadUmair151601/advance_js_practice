@@ -61,3 +61,20 @@
 
 // let finish = (name) => { return `${name} has finished the class`};
 // console.log(finish("Awais"));
+
+// *****************************Lecture #5
+// Rest operator:
+// introduced in ES6 version of JS and for this concept we need to be clear about using the functions with multiple arguments:
+// // when we pass different arguments to the same function like addition case we use rest operator and for in loop for that:
+// // Example:
+// function sum(name, ...args){
+//     console.log(arguments);
+//     document.write(`Hello ${name}`)
+//     let sum = 0;
+//     for (let i in args){
+//         sum += args[i];
+
+//     }
+//     document.write(sum);
+// }
+// sum("the sum is :",23,434);
