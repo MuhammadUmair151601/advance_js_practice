@@ -78,3 +78,27 @@
 //     document.write(sum);
 // }
 // sum("the sum is :",23,434);
+
+// **********************************Lecture #6
+// spread operator :
+// if we pass an array in the function calling time in rest operator case:
+// arr = [12,23,34,4]
+// like sum ("ali", arr)
+// in this case it will provide an error:
+// using spread operator the array spreads and are considered as separate:
+// we will use sum ("ali",...arr);
+// Example:
+//     function sum(name, ...args){
+//     document.write(`Hello ${name}`)
+//     let sum = 0;
+//     for (let i in args){
+//         sum += args[i];
+//     }
+//     document.write(sum);
+// }
+// var arr = [10,10,10,10]
+// sum("the sum is :",...arr);
+// In simple words:
+var arr = [10,10,10,10];
+console.log(...arr);
+// instead of printing array it will separately print the elements:
